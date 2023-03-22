@@ -8,7 +8,7 @@
   <name>jsp-servlet-example Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <sonar.host.url>http://13.233.196.55:9000/</sonar.host.url>
+    <sonar.host.url>http://http://13.234.217.178:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>Amma@2022</sonar.password>
   </properties>
