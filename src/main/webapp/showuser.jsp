@@ -5,6 +5,7 @@
 <a href='users'> <- Go back to users list</a>
 <h2>Hello ${model.name}, your phone number is: ${model.phone}!</h2>
 <h3>Friends</h3>
+   <h2>Hi team how are you</h2>
 <c:forEach items="${model.friends}" var="name">
    <a href='showuser?id=${name}'>${name}</a><p>
 </c:forEach>
