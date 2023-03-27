@@ -1,4 +1,4 @@
-node
+node('')
 {
 def mavenHome =tool name: "Maven-3.9.1"
 
@@ -12,12 +12,12 @@ stage('Build')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
-stage('email')
+/*stage('email')
 {
 emailext body: '''github webhook
 
 Regards,
 Vamsidhar''', subject: 'github webhook', to: 'vamsidhar113@gmail.com'
-}
+}*/
 
 }
