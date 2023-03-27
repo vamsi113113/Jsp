@@ -8,11 +8,10 @@ stage('github webhook')
 {
 git branch: 'development', credentialsId: 'cd765832-ec7e-44c1-ae90-0c9f8f1e9223', url: 'https://github.com/vamsi113113/Jsp.git'
 }
-/*
 stage('Build')
 {
 sh "${mavenHome}/bin/mvn clean package"
-}*/
+}
 stage('email')
 {
 emailext body: '''github webhook
